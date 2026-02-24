@@ -29,3 +29,8 @@ Enable and trigger the DAG: `spark_airflow_etl_demo`
 
 ## How to explain in an interview (30 seconds)
 “I built an Airflow DAG that orchestrates a PySpark ETL job end-to-end: extract/generate, transform with Spark, write Parquet, and validate output. The goal was to demonstrate orchestration patterns (dependencies, retries, logging) and Spark batch processing in a reproducible containerized setup.”
+
+## Proof (successful run)
+![Airflow DAG run (all tasks successful)](docs/screenshots/airflow_graph_success.png)
+![Parquet output folder](docs/screenshots/parquet_output_folder.png)
+
